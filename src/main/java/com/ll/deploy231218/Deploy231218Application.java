@@ -31,7 +31,7 @@ public class Deploy231218Application {
     @ResponseBody
     public Article newArticle() {
         Article article = (Article) articleRepository.save(
-                articleRepository.save(new Article("제목"))
+                articleRepository.save(new Article("수정"))
         );
 
         return article;
